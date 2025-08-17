@@ -1,4 +1,4 @@
-package minphylo
+package miniphylo
 
 import (
 	"math"

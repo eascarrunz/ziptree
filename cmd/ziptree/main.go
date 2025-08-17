@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"pkg/miniphylo"
+
+	"github.com/eascarrunz/ziptree/pkg/miniphylo"
 )
 
 func main() {
 	taxonNames := []string{"A", "B", "C", "D", "E", "F", "G", "H"}
-	taxa, _ := NewTaxonSet(taxonNames)
-	tree := BalancedTree(taxa)
+	taxa, _ := miniphylo.NewTaxonSet(taxonNames)
+	tree := miniphylo.BalancedTree(taxa)
 
 	fmt.Println(tree.Newick())
 }

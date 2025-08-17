@@ -1,4 +1,4 @@
-package minphylo
+package miniphylo
 
 func bool2int(b bool) int {
 	// The compiler currently only optimizes this form.

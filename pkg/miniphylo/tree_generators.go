@@ -1,4 +1,4 @@
-package minphylo
+package miniphylo
 
 func BalancedTree(taxset *TaxonSet) *Tree {
 	tree := NewUnassembledTree(taxset)
